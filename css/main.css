@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@300&display=swap');
+body{font-family: 'Nunito', sans-serif;}
+#menu .container{width: 80%; height: 60px}
+.button{color: darkred; font-size: 12px}
+.content{color:darkred; font-size: 15px; align-items: center; font-weight: bolder}
+.menu{display: flex; text-decoration: none; padding: 0; margin: 0}
+.text-center{text-align: center; font-size: 30px}
+.text-xam{color:#7F7F7F}
+.gach-chan{text-decoration: underline darkred}
+.img-logo{height: 20px; width: auto; margin: 10px 0 0 0}
+.menu ul li{float: left; margin: -23px 10px 0 25px ; list-style: none}
+.menu ul li a{text-decoration: none; color:#787878; align-items: center; font-weight: bold}
+.menu ul li a:hover{background-color: #7F7F7F; color: darkred; border-radius: 8px }
+.ten{font-weight: bolder; font-size:17px }
+.gia{color: darkred; font-weight: bold}
+.menu-icon{color:darkred; margin-top:10px}
+.menu-icon a{margin: 10px 10px 0 20px; color: darkred}
+.menu-icon a:hover{background-color: darkred; color: white; border-radius: 4px}
+.banner{width:100%; height:800px}
+#new .container{width: 80%; height:auto}
+#new .vien{width:100%; border: 1px solid darkred; padding: 15px; border-radius: 8px; position: relative; overflow: hidden}
+#new .social{position: absolute; width: 80%; height: 40px; left: 10%; top:-10%;display: flex; justify-content: space-around; transition: all 1s }
+#new .social a{height:40px; width:40px; background-color: darkred; border-radius: 50%; display: flex; justify-content: center; align-items:  center; text-decoration: none; color: white
+}
+#new .social a:hover{background-color: white; color: red
+}
+#new .vien:hover .social{top:40%}
+#product{width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-position: center bottom; background-size: cover}
+
+.pt-30{padding-top: 60px}
+.pt-100{padding-top: 100px}
+.pt-80{padding-top: 80px}
+.pt-3{padding-top:30pt}
+.vien-trang{width: 100%; height: 100px ; margin:20px; text-align: center; border: 1px solid white; padding: 10px}
+.vien-trang a{text-decoration: none; color: darkred}
+.vien-trang a:hover{background-color:darkred; color: white }
+.text-do{color:darkred}
+.text-do i a {font-size: 4px}
+#product .vien-trang{margin: 0px}
+#product .vien-trang i a:hover{border-radius: 8px}
+#blog .container{width: 80%; height: auto}
+#contact{width:100%; min-height: 500px;background-image: url(../images/Banner2.png); background-repeat: no-repeat; background-position: center bottom; background-size: cover}
+.box{padding: 40px; box-shadow:5px 5px 5px gray; border: 1px thin black}
+.form-control{padding: 10px; width:100%; justify-content: center; margin-bottom: 10px; border: 1px thin white }
+.text-justf{text-align: justify}
+.mb-5{margin-bottom: 5px}
+.btn{background-color: #D58820;padding:8px 15px;color: white;border-radius: 8px;cursor: pointer; border: none}
+.btn:hover{
+	background-color: antiquewhite; color: darkred; border-radius: 8px}
+
+#slide .owl-dots{ position:absolute; bottom: 6%; left:48%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#ADADAD;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+#slide .owl-dots{ position:absolute; bottom: 6%; left:48%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#ADADAD;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #F4C4C6; }
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FDDDD9;
+      text-decoration: none; }
+aside{
+	width: 30%;padding: 15px;min-height: 500px;
+}
